@@ -23,10 +23,7 @@ export default function Home() {
           brandName="STRANGER THINGS"
           button={{
             text: "Watch Now",
-            href: "https://netflix.com",
-            props: {
-              className: "text-white bg-red-600 hover:bg-red-700 border border-red-600"
-            }
+            href: "https://netflix.com"
           }}
           className="bg-black/90 backdrop-blur-md border-b border-red-900/20"
           buttonClassName="bg-red-600 hover:bg-red-700 text-white"
@@ -107,7 +104,8 @@ export default function Home() {
             }
           ]}
           className="bg-gradient-to-b from-red-950/10 to-black"
-          textBoxDescriptionClassName="text-red-100/80"
+          titleClassName="text-red-400 drop-shadow-xl"
+          descriptionClassName="text-red-100/80"
           cardClassName="bg-red-950/20 border border-red-900/30 hover:border-red-600/50 shadow-xl shadow-red-900/20"
           iconClassName="text-red-400"
           cardTitleClassName="text-red-300"
@@ -148,7 +146,7 @@ export default function Home() {
             }
           ]}
           className="bg-gradient-to-b from-black to-red-950/10"
-          descriptionClassName="text-red-100/80"
+          titleClassName="text-red-400 drop-shadow-xl"
           cardClassName="bg-red-950/20 border border-red-900/30 hover:border-red-600/50 shadow-xl shadow-red-900/20"
           iconContainerClassName="bg-red-600/20 border border-red-500/30"
           iconClassName="text-red-400"
