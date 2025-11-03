@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -107,7 +107,6 @@ export default function Home() {
             }
           ]}
           className="bg-gradient-to-b from-red-950/10 to-black"
-          titleClassName="text-red-400 drop-shadow-xl"
           descriptionClassName="text-red-100/80"
           cardClassName="bg-red-950/20 border border-red-900/30 hover:border-red-600/50 shadow-xl shadow-red-900/20"
           iconClassName="text-red-400"
