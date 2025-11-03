@@ -107,7 +107,7 @@ export default function Home() {
             }
           ]}
           className="bg-gradient-to-b from-red-950/10 to-black"
-          descriptionClassName="text-red-100/80"
+          textBoxDescriptionClassName="text-red-100/80"
           cardClassName="bg-red-950/20 border border-red-900/30 hover:border-red-600/50 shadow-xl shadow-red-900/20"
           iconClassName="text-red-400"
           cardTitleClassName="text-red-300"
