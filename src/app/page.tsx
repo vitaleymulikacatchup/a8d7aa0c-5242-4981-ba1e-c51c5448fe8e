@@ -148,7 +148,6 @@ export default function Home() {
             }
           ]}
           className="bg-gradient-to-b from-black to-red-950/10"
-          titleClassName="text-red-400 drop-shadow-xl"
           descriptionClassName="text-red-100/80"
           cardClassName="bg-red-950/20 border border-red-900/30 hover:border-red-600/50 shadow-xl shadow-red-900/20"
           iconContainerClassName="bg-red-600/20 border border-red-500/30"
